@@ -30,7 +30,12 @@ export const AppContextProvider = (props) => {
             const { data } = await axios.get(backendUrl + '/api/course/all');
 
             if (data.success) {
-                setAllCourses(data.courses)
+                 const sanitizedCourses = data.courses.map(course => ({
+                    ...course,
+                    educator: course.educator || { name: "Unknown Educator" }, // fallback
+                  }));
+            
+                  setAllCourses(sanitizedCourses);
             } else {
                 toast.error(data.message)
             }
