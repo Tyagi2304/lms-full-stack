@@ -5,7 +5,7 @@ const connectDB = async () => {
 
     mongoose.connection.on('connected', () => console.log('Database Connected'))
 
-    await mongoose.connect(`mongodb+srv://devtyagi230402:devtyagi12@cluster0.ezw6zce.mongodb.net/`)
+    await mongoose.connect(`mongodb+srv://devtyagi230402:devtyagi230402@cluster0.croikqi.mongodb.net/`)
 
 }
 
