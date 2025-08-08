@@ -1,12 +1,12 @@
 # lms-full-stack
-SkillEdge – Learning Management System (LMS)
+**SkillEdge – Learning Management System (LMS)**
 
 SkillEdge is a full-stack MERN-based LMS that enables instructors to upload and manage courses while providing students with a seamless learning experience.
 It features secure authentication, payment integration, and a responsive, user-friendly interface.
 
 ⸻
 
-Features ->
+**Features ->**
 
 	•	Instructor Dashboard – Upload, edit, and manage video courses.
 	•	Student Access – Browse and enroll in courses with an intuitive interface.
@@ -17,20 +17,25 @@ Features ->
 
 ⸻
 
-Tech Stack ->
+**Tech Stack ->**
 
-Frontend: React.js, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MongoDB, Mongoose
-Auth: Clerk
-Payments: Stripe
+Frontend: React.js, Tailwind CSS.       
+Backend: Node.js, Express.js.   
+Database: MongoDB, Mongoose.    
+Auth: Clerk.   
+Payments: Stripe.  
 
-Installation ->
+**Installation ->**
 
-#Clone the repository
-git clone <link>
+_#Clone the repository_      
+git clone **link**
 
-#Install dependencies for frontend & backend
+_#Install dependencies for frontend & backend_     
+cd lms-full-stack           
+cd client && npm install
+../server && npm install            
 
+_#Run the Server then run the Client_                    
+npm run dev           
 
 
