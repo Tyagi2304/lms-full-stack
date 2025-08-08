@@ -35,7 +35,10 @@ cd lms-full-stack
 cd client && npm install
 ../server && npm install            
 
-_#Run the Server then run the Client_                    
-npm run dev           
+_#Run the Server then run the Client_  npm run dev     
+
+**Live Demo ->**
+
+Here is your link - https://Ims-full-stack-vert.vercel.app
 
 
